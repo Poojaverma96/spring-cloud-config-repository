@@ -2,6 +2,9 @@ zuul:
   #Service will be mapped under the /api URI
   prefix: /api
   routes:
+   loan-service:
+      path: /service/**
+      serviceId: LOAN-SERVICE
     hello-server:
       path: /server/**
       serviceId: HELLO-SERVER
