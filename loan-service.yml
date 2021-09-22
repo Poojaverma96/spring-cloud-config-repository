@@ -8,7 +8,7 @@
         #enabled: true  
         
 server:
-  port: 8092        
+  port: 8012        
         
         
 spring: 
